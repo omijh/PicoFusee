@@ -7,3 +7,5 @@
 * `kaluma ports` to get the port of the pi pico 
 * `kaluma flash ./index.js --port [port-address of pico] --bundle --no-load`
 * `screen [port-address of pico] 115200` to test with `.load` command in the REPL
+
+* Compressed.js is the payload based on hekate v5.6.5, compressed with jscompress.com to make it fit in 512 kb user program space on pico 
